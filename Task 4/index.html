@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <!-- 1. Simple Login Form -->
+  <h2>1. Login Form</h2>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" name="username"><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password"><br>
+    <input type="submit" value="Login">
+  </form>
+
+  <!-- 2. Contact Form -->
+  <h2>2. Contact Form</h2>
+  <form>
+    <label for="text">Name:</label>
+    <input type="text" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea name="message" rows="4" cols="40"></textarea><br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- 3. Registration Form -->
+  <h2>3. Registration Form</h2>
+  <form>
+    <label for="text">First Name:</label>
+    <input type="text" name="firstName" required><br>
+    <label for="text">Last Name:</label>
+    <input type="text" name="lastName" required><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" required><br>
+    <label for="password">Confirm Password:</label>
+    <input type="password" name="confirmPassword" required><br>
+    <input type="submit" value="Register">
+  </form>
+
+  <!-- 4. Gender Selection Form -->
+  <h2>4. Gender Selection</h2>
+  <form>
+    <label for="gender">Select Gender:</label><br>
+    <input type="radio" name="gender" value="Male"> Male<br>
+    <input type="radio" name="gender" value="Female"> Female<br>
+    <input type="radio" name="gender" value="Other"> Other<br>
+  </form>
+
+  <!-- 5. Skills Checkbox Form -->
+  <h2>5. Skills Form</h2>
+  <form>
+    <label>Select your skills:</label><br>
+    <input type="checkbox" name="skills" value="HTML"> HTML<br>
+    <input type="checkbox" name="skills" value="CSS"> CSS<br>
+    <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br>
+    <input type="checkbox" name="skills" value="React"> React<br>
+  </form>
+
+  <!-- 6. Country Dropdown -->
+  <h2>6. Country Selection</h2>
+  <form>
+    <label for="country">Choose your country:</label><br>
+    <select name="country" id="country">
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="Australia">Australia</option>
+    </select>
+  </form>
+
+  <!-- 7. Mixed Input Types -->
+  <h2>7. Different Input Types</h2>
+  <form>
+    <label for="email">Email:</label>
+    <input type="email" name="email"><br>
+    <label for="">Age:</label>
+    <input type="number" name="age"><br>
+    <label for="date">Birthday:</label>
+    <input type="date" name="birthday"><br>
+    <label for="resume">Upload Resume:</label>
+    <input type="file" name="resume"><br>
+  </form>
+
+  <!-- 8. Newsletter Signup -->
+  <h2>8. Newsletter Signup</h2>
+  <form>
+    <label for="email">Email:</label>
+    <input type="email" name="email"><br>
+    <input type="checkbox" name="agree" value="yes">
+    <label for="agree"> I agree to receive newsletters</label><br>
+    <input type="submit" value="Subscribe">
+  </form>
+
+  <!-- 9. Feedback Form -->
+  <h2>9. Feedback Form</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" name="name"><br>
+    <label for="rating">Rate us:</label><br>
+    <input type="radio" name="rating" value="1"> 1
+    <input type="radio" name="rating" value="2"> 2
+    <input type="radio" name="rating" value="3"> 3
+    <input type="radio" name="rating" value="4"> 4
+    <input type="radio" name="rating" value="5"> 5<br>
+    <label for="comments">Comments:</label><br>
+    <textarea name="comments" rows="4" cols="40"></textarea><br>
+    <input type="submit" value="Submit Feedback">
+  </form>
+
+  <!-- 10. Fieldset and Legend -->
+  <h2>10. Personal Details Form</h2>
+  <form>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <label for="name">Name:</label>
+      <input type="text" name="name"><br>
+      <label for="age">Age:</label>
+      <input type="number" name="age"><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email"><br>
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>

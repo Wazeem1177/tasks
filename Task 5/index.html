@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Task 1: YouTube Video Embed -->
+    <h1>1. Embedded YouTube Video</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y44pmBJ4NmI" 
+            title="YouTube video" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Task 2: Audio Player -->
+    <h1>2. Audio Player</h1>
+    <audio controls>
+        <source src="./src/Iframe Khalbinnakame slowed+reverb _ Abhilasham _ Lofi Cover _ Jahan Mubarak [NZyt8Dd3KMQ].mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Task 3: Video Player -->
+    <h1>3. Video Player</h1>
+    <video width="480" height="320" controls>
+        <source src="./src/cypher-x-omen-x-sova-valorant-moewalls-com.mp4" type="video/mp4">
+        <source src="./src/sage-and-omen-valorant-moewalls-com.mp4" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <p>This is a sample video with two formats.</p>
+
+    <!-- Task 4: Contact Form -->
+    <h1>4. Contact Form</h1>
+    <form>
+        <label>Name: <input type="text" name="name" placeholder="Your Name" required></label><br><br>
+        <label>Email: <input type="email" name="email" placeholder="Your Email" required></label><br><br>
+        <label>Message:<br>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+        </label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 5: Products Table -->
+    <h1>5. Products Table</h1>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Price ($)</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Product A</td>
+            <td>10</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Product B</td>
+            <td>20</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Product C</td>
+            <td>15</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td colspan="2"><strong>$85</strong></td>
+        </tr>
+    </table>
+
+    <!-- Task 6: Feedback Form with Radio and Checkboxes -->
+    <h1>6. Feedback Form</h1>
+    <form>
+        <p>Rate our service:</p>
+        <label><input type="radio" name="rating" value="Good" required> Good</label><br>
+        <label><input type="radio" name="rating" value="Average"> Average</label><br>
+        <label><input type="radio" name="rating" value="Poor"> Poor</label><br><br>
+
+        <p>What did you like?</p>
+        <label><input type="checkbox" name="feedback" value="UI"> UI</label><br>
+        <label><input type="checkbox" name="feedback" value="Speed"> Speed</label><br>
+        <label><input type="checkbox" name="feedback" value="Content"> Content</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Task 7: Ordered and Unordered Lists -->
+    <h1>7. Lists</h1>
+    <h3>Top 3 Favorite Movies</h3>
+    <ol>
+        <li>Inception</li>
+        <li>The Matrix</li>
+        <li>Interstellar</li>
+    </ol>
+
+    <h3>Hobbies</h3>
+    <ul>
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Gaming</li>
+    </ul>
+
+    <!-- Task 8: Student Marks Table -->
+    <h1>8. Student Marks Table</h1>
+    <table border="1">
+        <caption>Student Marks in Subjects</caption>
+        <tr>
+            <th>Student</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>English</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>85</td>
+            <td>90</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Emma</td>
+            <td>78</td>
+            <td>84</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>92</td>
+            <td>88</td>
+            <td>91</td>
+        </tr>
+        <tr>
+            <td>Sophia</td>
+            <td>89</td>
+            <td>85</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Mike</td>
+            <td>75</td>
+            <td>80</td>
+            <td>78</td>
+        </tr>
+    </table>
+
+    <!-- Task 9: Feedback Form with Dropdown and Textarea -->
+    <h1>9. Feedback Form</h1>
+    <form>
+        <label for="topic">Select a topic:</label>
+        <select name="topic" id="topic" required>
+            <option value="">--Please choose an option--</option>
+            <option value="website">Website</option>
+            <option value="support">Support</option>
+            <option value="features">Features</option>
+        </select><br><br>
+        <label>Comments:<br>
+            <textarea name="comments" placeholder="Enter your comments here..." required></textarea>
+        </label><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <!-- Task 10: Iframe to Wikipedia -->
+    <h1>10. Embedded Wikipedia Page</h1>
+    <iframe src="https://en.wikipedia.org" width="600" height="400" title="Wikipedia"></iframe>
+
+</body>
+</html>
