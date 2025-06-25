@@ -74,20 +74,32 @@
   background: #000;
   color: white;
   padding: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  /* border: 2px solid white; */
+}
+
+.sidebar .cards{
+  border-top: 2px solid white;
 }
 
 
-.sidebar h2 {
+/* .sidebar h2 {
   color: #f25c54;
-}
+} */
 
-.sidebar li:hover{
+/* .sidebar li{
+  list-style-type: none;
+} */
+
+.sidebar h2:hover{
     color: palevioletred;
 }
 
-.sidebar li {
+/* .sidebar li {
   margin-bottom: 1rem;
-}
+} */
 
 .bottom-features {
   grid-column: span 2;
@@ -132,6 +144,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   background-color: white;
+  padding: 7px;
   /* text-align: start; */
 }
 /* .card img{
